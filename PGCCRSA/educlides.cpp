@@ -7,6 +7,7 @@
 //
 
 #include "educlides.h"
+#include "bigint/BigInteger.hh"
 
 int mdc(int n, int m) {
     if(m > n) {
@@ -34,5 +35,7 @@ EuclidesResult euclides(int a, int b){
     }
     return ret;
 }
+
+
 
 //Fermats test

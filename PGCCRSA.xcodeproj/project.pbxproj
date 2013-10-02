@@ -8,7 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		510D634017EB9BEC00ECFE15 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 510D633F17EB9BEC00ECFE15 /* main.cpp */; };
-		510D634217EB9BEC00ECFE15 /* PGCCRSA.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 510D634117EB9BEC00ECFE15 /* PGCCRSA.1 */; };
+		519DBC7717FBB819004C390C /* BigInteger.cc in Sources */ = {isa = PBXBuildFile; fileRef = 519DBC6517FBB819004C390C /* BigInteger.cc */; };
+		519DBC7817FBB819004C390C /* BigIntegerAlgorithms.cc in Sources */ = {isa = PBXBuildFile; fileRef = 519DBC6717FBB819004C390C /* BigIntegerAlgorithms.cc */; };
+		519DBC7917FBB819004C390C /* BigIntegerUtils.cc in Sources */ = {isa = PBXBuildFile; fileRef = 519DBC6A17FBB819004C390C /* BigIntegerUtils.cc */; };
+		519DBC7A17FBB819004C390C /* BigUnsigned.cc in Sources */ = {isa = PBXBuildFile; fileRef = 519DBC6C17FBB819004C390C /* BigUnsigned.cc */; };
+		519DBC7B17FBB819004C390C /* BigUnsignedInABase.cc in Sources */ = {isa = PBXBuildFile; fileRef = 519DBC6E17FBB819004C390C /* BigUnsignedInABase.cc */; };
+		519DBC7D17FBB819004C390C /* sample.cc in Sources */ = {isa = PBXBuildFile; fileRef = 519DBC7517FBB819004C390C /* sample.cc */; };
+		519DBC7E17FBB819004C390C /* testsuite.cc in Sources */ = {isa = PBXBuildFile; fileRef = 519DBC7617FBB819004C390C /* testsuite.cc */; };
 		51A33DA717EB9F88001C7E8F /* educlides.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51A33DA517EB9F88001C7E8F /* educlides.cpp */; };
 /* End PBXBuildFile section */
 
@@ -19,7 +25,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				510D634217EB9BEC00ECFE15 /* PGCCRSA.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -28,7 +33,20 @@
 /* Begin PBXFileReference section */
 		510D633C17EB9BEC00ECFE15 /* PGCCRSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PGCCRSA; sourceTree = BUILT_PRODUCTS_DIR; };
 		510D633F17EB9BEC00ECFE15 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		510D634117EB9BEC00ECFE15 /* PGCCRSA.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PGCCRSA.1; sourceTree = "<group>"; };
+		519DBC6517FBB819004C390C /* BigInteger.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigInteger.cc; sourceTree = "<group>"; };
+		519DBC6617FBB819004C390C /* BigInteger.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BigInteger.hh; sourceTree = "<group>"; };
+		519DBC6717FBB819004C390C /* BigIntegerAlgorithms.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigIntegerAlgorithms.cc; sourceTree = "<group>"; };
+		519DBC6817FBB819004C390C /* BigIntegerAlgorithms.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BigIntegerAlgorithms.hh; sourceTree = "<group>"; };
+		519DBC6917FBB819004C390C /* BigIntegerLibrary.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BigIntegerLibrary.hh; sourceTree = "<group>"; };
+		519DBC6A17FBB819004C390C /* BigIntegerUtils.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigIntegerUtils.cc; sourceTree = "<group>"; };
+		519DBC6B17FBB819004C390C /* BigIntegerUtils.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BigIntegerUtils.hh; sourceTree = "<group>"; };
+		519DBC6C17FBB819004C390C /* BigUnsigned.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigUnsigned.cc; sourceTree = "<group>"; };
+		519DBC6D17FBB819004C390C /* BigUnsigned.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BigUnsigned.hh; sourceTree = "<group>"; };
+		519DBC6E17FBB819004C390C /* BigUnsignedInABase.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigUnsignedInABase.cc; sourceTree = "<group>"; };
+		519DBC6F17FBB819004C390C /* BigUnsignedInABase.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BigUnsignedInABase.hh; sourceTree = "<group>"; };
+		519DBC7217FBB819004C390C /* NumberlikeArray.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NumberlikeArray.hh; sourceTree = "<group>"; };
+		519DBC7517FBB819004C390C /* sample.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample.cc; sourceTree = "<group>"; };
+		519DBC7617FBB819004C390C /* testsuite.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testsuite.cc; sourceTree = "<group>"; };
 		51A33DA517EB9F88001C7E8F /* educlides.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = educlides.cpp; sourceTree = "<group>"; };
 		51A33DA617EB9F88001C7E8F /* educlides.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = educlides.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,12 +81,33 @@
 		510D633E17EB9BEC00ECFE15 /* PGCCRSA */ = {
 			isa = PBXGroup;
 			children = (
+				519DBC6317FBB819004C390C /* bigint */,
 				510D633F17EB9BEC00ECFE15 /* main.cpp */,
-				510D634117EB9BEC00ECFE15 /* PGCCRSA.1 */,
 				51A33DA517EB9F88001C7E8F /* educlides.cpp */,
 				51A33DA617EB9F88001C7E8F /* educlides.h */,
 			);
 			path = PGCCRSA;
+			sourceTree = "<group>";
+		};
+		519DBC6317FBB819004C390C /* bigint */ = {
+			isa = PBXGroup;
+			children = (
+				519DBC6517FBB819004C390C /* BigInteger.cc */,
+				519DBC6617FBB819004C390C /* BigInteger.hh */,
+				519DBC6717FBB819004C390C /* BigIntegerAlgorithms.cc */,
+				519DBC6817FBB819004C390C /* BigIntegerAlgorithms.hh */,
+				519DBC6917FBB819004C390C /* BigIntegerLibrary.hh */,
+				519DBC6A17FBB819004C390C /* BigIntegerUtils.cc */,
+				519DBC6B17FBB819004C390C /* BigIntegerUtils.hh */,
+				519DBC6C17FBB819004C390C /* BigUnsigned.cc */,
+				519DBC6D17FBB819004C390C /* BigUnsigned.hh */,
+				519DBC6E17FBB819004C390C /* BigUnsignedInABase.cc */,
+				519DBC6F17FBB819004C390C /* BigUnsignedInABase.hh */,
+				519DBC7217FBB819004C390C /* NumberlikeArray.hh */,
+				519DBC7517FBB819004C390C /* sample.cc */,
+				519DBC7617FBB819004C390C /* testsuite.cc */,
+			);
+			path = bigint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +162,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				510D634017EB9BEC00ECFE15 /* main.cpp in Sources */,
+				519DBC7817FBB819004C390C /* BigIntegerAlgorithms.cc in Sources */,
+				519DBC7E17FBB819004C390C /* testsuite.cc in Sources */,
+				519DBC7B17FBB819004C390C /* BigUnsignedInABase.cc in Sources */,
+				519DBC7917FBB819004C390C /* BigIntegerUtils.cc in Sources */,
+				519DBC7717FBB819004C390C /* BigInteger.cc in Sources */,
 				51A33DA717EB9F88001C7E8F /* educlides.cpp in Sources */,
+				519DBC7A17FBB819004C390C /* BigUnsigned.cc in Sources */,
+				519DBC7D17FBB819004C390C /* sample.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
